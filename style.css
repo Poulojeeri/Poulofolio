@@ -1,0 +1,297 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    scroll-behavior: smooth;
+}
+
+#accueil {
+    padding-bottom: 240px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 0px;
+}
+
+.accueil{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imgacc.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-left: 0;
+    padding-right: 5%;
+    position: fixed;
+
+}
+
+.logo{
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+nav ul {
+    padding-left: 890px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: #fd541f;
+    transition: .2s;
+
+}
+
+.contenu{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+
+.contenu h4{
+    color: #FB7955;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.contenu h1{
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.contenu h3{
+    color: white;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+span{
+    color: #fd541f;
+}
+
+#reseau{
+    float: right;
+    padding-right: 150px;
+    padding-top: 750px;
+}
+
+.fa-linkedin{
+    font-size: 40px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+.fa-square-behance{
+    font-size: 40px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+.fa-square-instagram {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+
+
+
+/* A PROPOS */
+
+#apropos {
+    background-color: #ffffff;
+    padding-bottom: 0px;
+    padding-top: 35px;
+
+}
+
+.container{
+    background-color:#ffffff;
+    padding:15px 9%;
+    padding-top: 50px;
+}
+
+.container .titre{
+    
+    color:#fd541f;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(53, 53, 53, 0.093);
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    padding:30px 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container .box-container .box h3{
+    color:#000000;
+    font-size: 22px;
+    padding:10px 0;
+    text-transform: uppercase;
+}
+
+.container .box-container .box p{
+    color:#808080;
+    font-size: 15px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+
+
+.container .box-container .box:hover{
+    box-shadow: 1px 1px 20px 1px rgba(30, 30, 30, 0.088);
+    transform: scale(1.06);
+}
+
+.fa-user{
+    font-size: 50px;
+    color: #000000;
+}
+
+.fa-graduation-cap{
+    font-size: 50px;
+    color: #000000;
+}
+
+.fa-computer{
+    font-size: 50px;
+    color: #000000;
+}
+
+.fa-hands-asl-interpreting{
+    font-size: 50px;
+    color: #000000;
+}
+
+.fa-briefcase{
+    font-size: 50px;
+    color: #000000;
+}
+
+.fa-people-robbery{
+    font-size: 50px;
+    color: #000000;
+}
+
+
+
+
+
+
+/*  REFERENCES  */
+
+#references {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 80px;
+   
+}
+
+.container2{
+    background-color: #ffffff;
+    padding:15px 9%;
+    padding-top: 10px;
+}
+
+.container2 .titre2{
+    
+    color:#fd541f;
+    font-size: 50px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+.container2 .box-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:50px;
+    padding-top: 40px;
+}
+
+
+
+.container2 .box-container2 .box2{
+    box-shadow: 5px 5px 10px rgba(53, 53, 53, 0.093);
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    padding:30px 20px;
+    border-radius: 20px;
+}
+
+.container2 .box-container2 img{
+    border-radius: 15px;
+}
+
+
+.container2 .box-container2 .box2 h3{
+    color:#000000;
+    font-size: 22px;
+    padding:10px 0;
+    text-transform: uppercase;
+}
+
+.container2 .box-container2 .box2 p{
+    color:#808080;
+    font-size: 15px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+
+
+.container2 .box-container2 .box2:hover{
+    box-shadow: 1px 1px 20px 1px rgba(30, 30, 30, 0.088);
+    transform: scale(1.06);
+}
+
+.Profiles {
+    height: 300px;
+
+}
+
+
